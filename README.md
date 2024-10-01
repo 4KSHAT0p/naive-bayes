@@ -5,7 +5,7 @@
 * Naive Bayes raw (without TF-IDF)
 * Naive Bayes with **TF-IDF** (Term Frequency-Inverse Document Frequency)
 
-Several preprocessing techniques such as _**tokenization**, **stopword removal** and methods such as **Laplace smoothing** and assigning **TF-IDF** weights to probabilities, has been done to maximize the model accuracy._
+_Several preprocessing techniques such as **tokenization**, **stopword removal** and methods such as **Laplace smoothing** and assigning **TF-IDF** weights to probabilities, has been done to maximize the model accuracy._
 
 _**Note**: This implementation is completely done from scratch and uses libraries for text preprocessing and evaluation purposes only._
 
@@ -46,3 +46,6 @@ Both models have been evaluated according to the specified dataset only and the 
 * Accuracy (TF-IDF Naive Bayes): 97%
 
 Feel free to experiment with the models and improve their performance!
+
+### Suggested Improvements
+* Word Stemming
