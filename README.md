@@ -21,7 +21,7 @@ You can modify the script to work with your dataset by ensuring the column names
 
 
 ## Prerequisites
-* Python (latest)
+* Python
 * pandas
 * scikit-learn
 * numpy
