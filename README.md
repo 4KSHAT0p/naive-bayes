@@ -49,3 +49,5 @@ Feel free to experiment with the models and improve their performance!
 
 ### Suggested Improvements
 * Word Stemming
+* I have assigned the TF-IDF score (named as 'epsilon' in the code) as _1e-9_ when the term is not in the TF-IDF table which is comparatively larger number w.r.t range of probabilities in this dataset. So for more fair predictions, we can use _2e-308_ as _'epsilon'_.
+This boils down the accuracy from 97% to 96% as on evaluation with the latter changes. 
